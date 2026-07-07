@@ -273,7 +273,9 @@ section{
   padding:5px 10px;
   border-radius:4px;
   display:inline-flex;align-items:center;gap:6px;
+  transition:transform var(--t),box-shadow var(--t);
 }
+.hero-chip:hover{transform:translateY(-2px)}
 .hero-chip em{color:var(--accent2);font-style:normal}
 .hero-chip.amber em{color:var(--amber)}
 .hero-chip.green em{color:var(--green)}
